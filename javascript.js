@@ -28,7 +28,6 @@ function display(value) {
     resultInput.value += value;
 }
 
-
 function calculateResult() {
     const x = document.getElementById('result').value;
     const y = eval(x)
